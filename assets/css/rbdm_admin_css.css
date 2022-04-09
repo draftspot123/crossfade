@@ -1,0 +1,1136 @@
+:root{
+
+
+
+    --color1: #d6d6d6;
+
+
+
+} 
+
+
+
+.rbdm_hide{
+
+
+
+    display: none!important
+
+
+
+} 
+
+
+
+.rbdm_my10{
+
+
+
+    margin:10px 0;
+
+
+
+}
+
+
+
+.d-flex{
+
+
+
+    display: flex;
+
+
+
+    flex-wrap: wrap;
+
+
+
+}  
+
+
+
+.rb_list_discounts_wrapper {
+
+
+
+   padding: 20px;
+
+
+
+}
+
+
+
+.rb_list_discounts_wrapper h2{
+
+
+
+    border-bottom: 1px solid;
+
+
+
+}
+
+
+
+.rbdm_add_discount_btn{
+
+
+
+    float: right;
+
+
+
+}
+
+
+
+.rbdm_add_discount_row,.rbdm_add_discount_row_input{
+
+
+
+    display:none;
+
+
+
+}
+
+
+
+.rbdm_add_discount_row_users{
+
+
+
+    background-color: var(--color1);
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+body.toplevel_page_rbdm-options .rbdm-add-discount-modal-wrapper{
+
+
+
+    /*position: absolute;*/
+
+
+
+    background-color: var(--color1);
+
+
+
+    z-index: 10;
+
+
+
+    min-width: 99%;
+
+
+
+    display: none;
+
+
+
+    padding: 20px;
+
+
+
+}
+
+
+
+.rb_list_discounts_header{
+
+
+
+    display: flex;
+
+
+
+    justify-content: space-between;
+
+
+
+}
+
+
+
+.rb_list_discounts_content_table_head{
+
+
+
+    display: flex;
+
+
+
+    border-bottom: 1px solid;
+
+
+
+    border-top: 1px solid;
+
+
+
+    font-weight: 700;
+
+
+
+}
+
+
+
+.rb_list_discounts_content_table_body{
+
+
+
+    
+
+
+
+}
+
+
+
+.rb_list_discounts_content_table_row{
+
+
+
+    display: flex;
+
+    margin-bottom: 4px;
+
+    padding-bottom: 4px;
+
+    border-bottom: 1px solid #d9d9d9;
+
+}
+
+
+
+.rb_list_discounts_content_table_head div,.rb_list_discounts_content_table_row div{
+
+
+
+    width: 14%;
+
+
+
+}
+
+
+
+
+
+
+
+.rbdm_add_discount_row{
+
+
+
+    padding: 10px 0;
+
+
+
+    border-bottom: 1px solid;
+
+
+
+}
+
+
+
+.rbdm_add_discount_type_value_label{
+
+
+
+    display:none;
+
+
+
+}
+
+
+
+
+
+
+
+body.users-php .rbdm-add-discount-modal-wrapper{
+
+
+
+    position: absolute;/**/
+
+
+
+    background-color: var(--color1);
+
+
+
+    z-index: 10;
+
+
+
+    min-width: 99%;
+
+
+
+    display: none;
+
+
+
+    padding: 20px;
+
+
+
+}
+
+
+
+.rbdm_update_discount_modal_wrapper h5{
+
+
+
+    border: 1px solid;
+
+
+
+}
+
+
+
+.rbdm-add-discount-modal-title{
+
+
+
+    border-bottom: 1px solid;
+
+
+
+}
+
+
+
+.rbdm_add_discount_row_type_modal{
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+.rbdm_add_discount_cond_value{
+
+
+
+    display:none;
+
+
+
+}
+
+
+
+.rbdm_add_discount_row_products_modal_search_wrapper{
+
+
+
+    display: flex;
+
+
+
+}
+
+
+
+.rbdm_add_discount_row_products_modal_search_fields{
+
+
+
+    display: flex;
+
+
+
+}
+
+
+
+.rbdm_add_discount_row button{
+
+
+
+    float: right;
+
+
+
+    background-color: green;
+
+
+
+    color: white;
+
+
+
+}
+
+
+
+.rbdm_coppyright{
+
+
+
+    position: absolute;
+
+
+
+    right: 10px;
+
+
+
+    top: 0px;
+
+
+
+    color: #00000069;
+
+
+
+    font-weight: 700;
+
+
+
+}
+
+
+
+.rb_list_discounts_content_table_action_delete,.rb_list_discounts_content_table_action_update{
+
+
+
+    cursor: pointer;
+
+
+
+}
+
+
+
+.ds_expired{
+
+
+
+    opacity:.5;
+
+
+
+}
+
+
+
+.rbdm_update_discount_modal_wrapper{
+
+
+
+    position: absolute;
+
+
+
+    top:10px;
+
+
+
+    margin:auto;
+
+
+
+    background-color: #e2e2e2;
+
+
+
+    padding: 20px;
+
+
+
+    width: 100%;
+
+
+
+}
+
+
+
+.rbdm_update_discount_modal_wrapper label.rbdm_add_discount_type_value_label,.rbdm_update_discount_modal_wrapper .rbdm_add_discount_cond_value{
+
+
+
+    display:block;
+
+
+
+}
+
+
+
+.rbdm_update_discount_modal_user_left,.rbdm_update_discount_modal_user_right{
+
+
+
+    display: flex;
+
+
+
+    flex-wrap: wrap;
+
+
+
+}
+
+
+
+.rbdm_update_discount_modal_user_left_label,.rbdm_update_discount_modal_user_right_label{
+
+
+
+    margin-right: 20px;
+
+
+
+}
+
+
+
+.rbdm_update_discount_user{
+
+
+
+    padding: 7px 14px 7px 7px;
+
+
+
+    border: 1px solid;
+
+
+
+    position: relative;
+
+
+
+    font-size: 25px;
+
+
+
+    font-weight: 700;
+
+
+
+    margin-right: 10px;
+
+
+
+    border-radius: 3px;
+
+
+
+}
+
+
+
+.rbdm_update_discount_user span{
+
+
+
+    color: red;
+
+
+
+    position:absolute;
+
+
+
+    top:-10px;
+
+
+
+    right:-10px;
+
+
+
+    background-color:#e2e2e2;
+
+
+
+    cursor: pointer;
+
+
+
+    padding: 5px;
+
+
+
+}
+
+
+
+.rbdm_update_discount_add_user{
+
+
+
+    max-height: 30px;
+
+
+
+}
+
+
+
+.rbdm_update_discount_modal_products_left{
+
+
+
+    display: flex;
+
+
+
+    flex-wrap: wrap; 
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+.rbdm_update_discount_product{
+
+    padding: 7px 14px 7px 7px;
+
+    border: 0;
+
+    position: relative;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    margin-right: 10px;
+
+    border-radius: 3px;
+
+    background: #767676;
+
+    color: white;
+
+}
+
+
+
+.rbdm_update_discount_remove{
+
+    color: white;
+
+    position: absolute;
+
+    top: -6px;
+
+    right: -7px;
+
+    background-color: #fc2c2c;
+
+    cursor: pointer;
+
+    /* padding: 2px 5px; */
+
+    line-height: 1;
+
+    width: 18px;
+
+    height: 14px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    font-weight: bold;
+
+    padding-bottom: 4px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* edits */
+
+.rb_list_discounts_wrapper h2 {
+
+    border-bottom: 1px solid;
+
+    color: #2271b1;
+
+    padding-bottom: 15px;
+
+    font-size: 24px;
+
+}
+
+.rb_list_discounts_content_table_head div, .rb_list_discounts_content_table_row div {
+
+    /*padding: 15px;*/
+
+}
+
+.rb_list_discounts_content_table_head {
+
+    padding: 4px;
+
+    background: white;
+
+    border-radius: 4px;
+
+    border: 0;
+
+}
+
+.rb_list_discounts_content_table_body {
+
+    padding: 4px;    
+
+}
+
+.rb_list_discounts_content_table_action_delete {
+
+    background: red;
+
+    color: #fff;
+
+    padding: 2px 5px;
+
+    border-radius: 4px;
+
+    margin-right: 10px;
+
+    display: inline-block;
+
+}
+
+.rbdm_update_discount_modal_wrapper h5 {
+
+    border: 0;
+
+    background: #2271b1;
+
+    color: #fff;
+
+    padding: 6px;
+
+    width: 95%;
+
+    border-radius: 4px;
+
+    font-size: 13px;
+
+}
+
+.rbdm_update_discount_modal_wrapper {
+
+    width: 96%;
+
+    z-index: 999;
+
+}
+
+button.btn.rbdm_add_discount_submit {
+
+    display: block;
+
+    margin-top: 15px;
+
+    background: #2271b1;
+
+    color: #fff;
+
+    border: 0;
+
+    padding: 10px 20px;
+
+    border-radius: 4px;
+
+    font-weight: 600;
+
+    cursor:pointer;
+
+}
+
+button.btn.rbdm_add_discount_submit:hover {
+
+    background:#333;
+
+}
+
+.rbdm_add_discount_btn {
+
+    background: #2271b1;
+
+    color: #fff;
+
+    border: 0;
+
+    padding: 10px 20px;
+
+    border-radius: 4px;
+
+    font-weight: 600; 
+
+    cursor:pointer;   
+
+}
+
+.rbdm_add_discount_btn:hover {
+
+    background:#333;
+
+}
+
+.rbdm_update_discount_modal_user_left.rbdm_my10 {
+
+ /*   border: 1px solid #2271b1;
+
+    display: inline;
+
+    padding: 3px 99px;
+
+    background: #eee;
+
+    border-radius: 3px;*/
+
+    font-weight: bold;
+
+}
+
+
+
+/*crossfade*/
+
+.rbdm_add_rule_btn {
+
+    background: #2271b1;
+
+    color: #fff;
+
+    border: 0;
+
+    padding: 10px 20px;
+
+    border-radius: 4px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    float:right; 
+
+}
+
+button.btn.rbdm_add_rule_submit {
+
+    display: block;
+
+    margin-top: 15px;
+
+    background: #2271b1;
+
+    color: #fff;
+
+    border: 0;
+
+    padding: 10px 20px;
+
+    border-radius: 4px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+}
+
+.rb_list_rule_content_table_head div,.rb_list_rule_content_table_row div{
+
+    flex:1;
+
+}
+
+
+
+
+
+.rbdm_form_rule_wrapper, .rbdm_list_rule_wrapper {
+
+    padding: 0 20px;
+
+}
+
+
+
+.rbdm_form_rule_discount_type {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.rb_list_rule_content_table_row  {
+
+    margin-bottom: 4px;
+
+    padding-bottom: 4px;
+
+    border-bottom: 1px solid #d9d9d9;
+
+}
+
+.rb_list_rule_content_table_head {
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+    /* border-bottom: 1px solid #343434; */
+
+    background: white;
+
+    border-radius: 4px;
+
+    padding: 4px;
+
+}
+
+
+
+.rb_list_rule_content_table_body {
+
+    padding: 4px;
+
+}
+
+
+
+.rb_list_rule_content_table_row_delete {
+
+    padding: 2px 5px;
+
+    background: red;
+
+    color: white;
+
+    border-radius: 5px;
+
+    display: inline-block;
+
+    cursor: pointer;
+
+}
+
+
+
+.rb_list_discounts_content_table_action_update {
+
+    padding: 2px 5px;
+
+    background: grey;
+
+    color: white;
+
+    border-radius: 5px;
+
+    display: inline-block;
+
+    cursor: pointer; 
+
+}
+
+
+
+
+
+
+
+.rbdm_update_discount_modal_user_left, .rbdm_update_discount_modal_user_right {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.rbdm_update_discount_modal_user_right_label {
+
+    margin-right: 5px;
+
+}
+
+
+
+
+
+.rbdm_update_discount_type_wrapper label {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-right: 15px;
+
+}
+
+
+
+.rbdm_update_discount_type_wrapper label input, #wpbody #wpbody-content label input {
+
+    margin-left: 5px;
+
+}
+
+
+
+#wpbody #wpbody-content label {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-right: 15px;
+
+}
+
+
+
+.rbdm_update_discount_modal_expiration label {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.rbdm_update_discount_modal_user_right span {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+.rbdm_update_discount_products_s_search_list {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+
+}
+
+
+
+/*.rbdm_update_discount_modal_condition_wrapper {
+
+    align-items: flex-start;
+
+}*/
+
+
+
+.rbdm_update_discount_row_products_modal_search_fields {
+
+    align-items: flex-start;
+
+}
+
+
+
+.rbdm_add_discount_products_search_result_list {
+
+    min-width: 300px;
+
+}
+
+
+
+.rbdm_select_products {
+
+    margin-left: 5px;
+
+}
+
+
+
+.rbdm_form_rule_wrapper {
+
+    margin-bottom: 40px;
+
+}
+
+
+.rbdm_cross_orders_date_wrapper  {
+    align-items: center;
+}
+.rbdm_orders_submit_btn {
+    padding: 6px 15px;
+    border: 1px solid #2271b1;
+    border-radius: 4px;
+    color: #2271b1;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.rbdm_update_discount_modal_delete {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #2271b1;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 6px 13px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
